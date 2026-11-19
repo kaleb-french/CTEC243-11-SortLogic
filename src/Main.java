@@ -6,12 +6,11 @@ public class Main {
         System.out.println("Original Array:");
         Sorts.printValues(values);
 
-        Sorts.selectionSort(values);
+        Sorts.mergeSort(values);
 
         System.out.println("\nSorted Array:");
         Sorts.printValues(values);
 
-        System.out.println("\nVerification: " +
-        Sorts.isSorted(values));
+        System.out.println("\nVerification: " + Sorts.isSorted(values));
     }
 }
